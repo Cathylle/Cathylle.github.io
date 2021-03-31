@@ -2,6 +2,12 @@ html, body {
   max-width: 100%;
   overflow-x: hidden;
 }
+@-moz-document url-prefix() {
+  html, body {
+    scrollbar-width: thin;
+    scrollbar-color: #040120 rgba(255, 255, 255, 0.05);
+  }
+}
 
 body {
   background-color: #040120;
@@ -465,6 +471,11 @@ nav ul li select {
   letter-spacing: 1rem;
   margin-left: 6rem;
   cursor: pointer;
+}
+@-moz-document url-prefix() {
+  nav ul li select {
+    -moz-appearance: none;
+  }
 }
 @media screen and (max-width: 450px) {
   nav ul li select {
@@ -939,6 +950,12 @@ nav ul li a:hover, nav ul li a:focus {
   border-left: 0;
   box-shadow: 0 0 rgba(255, 255, 255, 0.25);
 }
+@-moz-document url-prefix() {
+  .home .apropos__services--modif {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.05) rgba(255, 255, 255, 0);
+  }
+}
 .home .apropos__services__select {
   width: 8.2vw;
   text-align: center;
@@ -1270,6 +1287,7 @@ nav ul li a:hover, nav ul li a:focus {
   text-transform: uppercase;
   overflow-y: scroll;
   width: fit-content;
+  list-style: none;
 }
 .realisations ul::-webkit-scrollbar {
   width: 0px;
@@ -1375,6 +1393,12 @@ nav ul li a:hover, nav ul li a:focus {
   border-right: 0;
   border-left: 0;
   box-shadow: 0 0 rgba(255, 255, 255, 0.25);
+}
+@-moz-document url-prefix() {
+  .realisations ul {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.05) rgba(255, 255, 255, 0);
+  }
 }
 .realisations .miniatures {
   display: flex;
@@ -1792,6 +1816,12 @@ nav ul li a:hover, nav ul li a:focus {
   /* Handle */
   display: none;
 }
+@-moz-document url-prefix() {
+  .realisationsPage .realisationsPage_visionneuse .realisationsPage_visionneuse--span .realisationsPage_visionneuse_picture p {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.05) rgba(255, 255, 255, 0);
+  }
+}
 .realisationsPage .realisationsPage_visionneuse .realisationsPage_visionneuse--span .realisationsPage_visionneuse_picture p::-webkit-scrollbar {
   width: 5px;
 }
@@ -2073,6 +2103,12 @@ nav ul li a:hover, nav ul li a:focus {
   border-left: 0;
   box-shadow: 0 0 rgba(255, 255, 255, 0.25);
 }
+@-moz-document url-prefix() {
+  .realisationsPage .realisationPage_wrapper ul {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.05) rgba(255, 255, 255, 0);
+  }
+}
 @media screen and (max-width: 1600px) {
   .realisationsPage .realisationPage_wrapper ul {
     margin: 3rem 0;
@@ -2320,6 +2356,12 @@ nav ul li a:hover, nav ul li a:focus {
   /* width */
   /* Track */
   /* Handle */
+}
+@-moz-document url-prefix() {
+  .realisationsPage .realisationPage_wrapper .realisationpage section .section_contenu p {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.05) rgba(255, 255, 255, 0);
+  }
 }
 @media screen and (max-width: 800px) {
   .realisationsPage .realisationPage_wrapper .realisationpage section .section_contenu p {
