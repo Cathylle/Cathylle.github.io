@@ -331,22 +331,22 @@
         "avec":"<a href='https://www.facebook.com/people/Louise-Ectors/100010345269799' target='_blank'>Louise Ectors</a>, <a href='https://ma-non-m.wixsite.com/portfolio' target='_blank'>Manon Moreau</a>, <a href='https://solene-michel.weebly.com/' target='_blank'>Solène Michel</a>",
         "texte":"Bloom to the Moon est un workshop réalisé en groupe. <br> Le but était de réaliser un livre en accordéon et imposait le thème de la métamorphose ou de l’évolution. <br> Nous avons réalisé des tampons grâce à de la gravure et de la gouache. Cela offre un visuel riche et texturé. Une fois les tampons réalisés, nous les avons scannés avec une très haute résolution et transformés en brush sur Photoshop. Alors, nous avons composé nos images, appliqué des couleurs et enrichit la texture.",
         "photos" : [
-            {"src":"graphismes/img/ILLU/workshopTampon/workshop-couverture1.jpg",
+            {"src":"graphismes/img/ILLU/WorkshopTampon/workshop-couverture1.jpg",
                 "alt":"Couverture",
                 "titre":"Bloom to the moon-Couverture"
                 },
             
-            {"src":"graphismes/img/ILLU/workshopTampon/workshop-couverture2.jpg",
+            {"src":"graphismes/img/ILLU/WorkshopTampon/workshop-couverture2.jpg",
                 "alt":"Quatrième de couverture",
                 "titre":"Bloom to the moon-Quatrième de couverture"
             },
             
-            {"src":"graphismes/img/ILLU/workshopTampon/workshop-brush.jpg",
+            {"src":"graphismes/img/ILLU/WorkshopTampon/workshop-brush.jpg",
                 "alt":"Echantillons des tampons utilisés pour le workshop",
                 "titre":"Bloom to the moon-Tampons"
             },
             
-            {"src":"graphismes/img/ILLU/workshopTampon/workshop-illu.jpg",
+            {"src":"graphismes/img/ILLU/WorkshopTampon/workshop-illu.jpg",
                 "alt":"Illustration complète",
                 "titre":"Bloom to the moon"
                 }
