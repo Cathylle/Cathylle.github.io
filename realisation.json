@@ -1,4 +1,41 @@
 [
+    
+    {  "titre":"Portfolio 2021",
+        "categ":"web ideation",
+        
+        "miniature":"graphismes/img/WEB/Portfolio2021/mini-P2021.jpg",
+        "texte":"Afin de rafraichir mes connaissances et de m’offrir une devanture plus professionnelle et corporate pour les recruteurs et clients potentiels, j’ai décidé de réfléchir à une nouvelle communication graphique. Ma première priorité était un nouveau Portfolio qui reflèterait mes différentes compétences et mon sérieux.  <br> J’ai donc fait une étude de personas, afin de mieux comprendre mon public. J’ai aussi réfléchi à différentes ambiances, couleurs, typographies et icones, assez modernes et sobres. <br> J’ai ensuite réalisé la maquette pour PC, Ipad et Mobile sur Figma. <br> Enfin, j’ai traduit cette maquette en HTML, JQuery, SASS et Json. <br> Je prévois de traduire le site en anglais prochainement.",
+        "photos" : [
+            {"src":"graphismes/img/WEB/Portfolio2021/P2021-header.jpg",
+                "alt":"Image bleuefoncée avec des méduses jaunes lumineuses",
+                "titre":"Header Portfolio 2021"
+                },
+            {"src":"graphismes/img/WEB/Portfolio2021/P2021-moodboardC.jpg",
+                "alt":"Couleurs: bleu, jaune, orange, blanc",
+                "titre":"Moodboard de couleurs"
+                },
+            {"src":"graphismes/img/WEB/Portfolio2021/P2021-moodboardT.jpg",
+                "alt":"Typographie simple, sans serif",
+                "titre":"Moodboard ambiance typographique"
+                },
+            {"src":"graphismes/img/WEB/Portfolio2021/P2021-moodboardB.jpg",
+                "alt":"Boutons et icon en tracé, sans fond",
+                "titre":"Moodboard bouton"
+                },
+            {"src":"graphismes/img/WEB/Portfolio2021/P2021-PersonaCl.jpg",
+                "alt":"Fiche persona d'une recruteuse et son son parcours utilisateur",
+                "titre":"Béatrice Recruteuse"
+                },
+            {"src":"graphismes/img/WEB/Portfolio2021/P2021-iconG.jpg",
+                "alt":"Set d'icones importantes (services et programmes",
+                "titre":"Icones services et programmes"
+                },
+            {"src":"graphismes/img/WEB/Portfolio2021/P2021-iconD.jpg",
+                "alt":"Set d'icones discrètes",
+                "titre":"Icones UX basique"
+                }
+        ]
+    },
     {  "titre":"CV 2020",
     "categ":"prepresse",
     
