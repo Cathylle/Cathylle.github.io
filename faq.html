@@ -11,19 +11,21 @@
     
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    
+
         <link rel="shortcut icon" type="image/x-icon" href="./graphismes/icones/logo/logo-01-ico.png">
+    
     
         <link href="https://fonts.googleapis.com/css2?family=Cagliostro&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600;700;900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet">
 
-        <link rel="stylesheet" href="/public/css/style.css">
-
+        <link id="cssSheet" rel="stylesheet" href="/public/css/style_night.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
 
         <script src="projet.js"></script>
+
+        <script src="nightAndDay.js"></script>
 
     <title>Catherine Jouret • Foire aux questions</title>
 
@@ -44,6 +46,11 @@
                     <option value="en"> EN </option>
                 </select>
             </li>
+            <li>
+                <label class="switch">
+                <input type="checkbox" class="checkbox" />
+                <div class=""></div>
+              </label></li>
         </ul>
     </nav>
     <div class="header__Reseaux">
@@ -240,7 +247,7 @@
 
 
 </div>
-    <button>Poser une question</button>
+    <button onclick="location.href='index.html#contact'" type="button">Poser une question</button>
     <footer>
         <p>©2021 Catherine Jouret</p>
     </footer>

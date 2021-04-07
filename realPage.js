@@ -43,8 +43,8 @@ $.getJSON( "realisation.json")
 			$("nav").animate({"right":"-100vw"})
 			drap=false
 		}
-		
 	})
+
 	
 	$("nav ul li a").click(function(){
 		if($(".burgerMenu").is(":visible")){
@@ -573,8 +573,26 @@ $(".realisationpage section").each(function(){
 //faire fonctionner le lien d'encre généré par json sur une page qui n'a pas encore été générée
 const url=window.location.href
 
+$(document).ready(function(){
+
+	if (!(window.mozInnerScreenX == null)) {
+		if(url.includes("#")){
+			const detailUrl=url.split("#");
+			const newurl=detailUrl[0]+"#"+detailUrl[1];
+			window.location.replace(newurl)
+			$(".meduse_loading").hide()
+		}
+		else{
+			$(".meduse_loading").hide()
+		
+		}
+	   }
+
+    
+});
+
 $( window ).on( "load", function() {
-	
+
 	if(url.includes("#")){
 		const detailUrl=url.split("#");
 		const newurl=detailUrl[0]+"#"+detailUrl[1];
