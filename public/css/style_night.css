@@ -131,6 +131,12 @@ button:hover, button:focus {
 .switch {
   margin-left: 6rem;
 }
+@media screen and (max-width: 450px) {
+  .switch {
+    margin-left: 0;
+    margin: auto;
+  }
+}
 .switch:hover > div {
   border-color: white;
 }
