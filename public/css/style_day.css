@@ -131,6 +131,13 @@ button:hover, button:focus {
 .switch {
   margin-left: 6rem;
 }
+.switch:hover > div {
+  border-color: #040120;
+}
+.switch:hover > div:before {
+  background-image: url(../../graphismes/icones/icon/moon-icon-01D.png);
+  background-color: #040120;
+}
 
 .switch .checkbox {
   opacity: 0;
@@ -139,7 +146,7 @@ button:hover, button:focus {
 .switch > div {
   width: 40px;
   height: 15px;
-  background: rgba(0, 0, 0, 0.041);
+  border: 1px solid #ed632e;
   z-index: 0;
   cursor: pointer;
   position: relative;
@@ -152,21 +159,22 @@ button:hover, button:focus {
 }
 
 .switch > input:checked + div {
-  background: #040120;
   text-align: left;
   color: rgba(255, 255, 255, 0.75);
+  border: 1px solid #040120;
 }
 
 .switch > div:before {
   content: "";
   display: inline-block;
   position: absolute;
-  left: 0;
-  top: -2px;
+  left: -3px;
+  top: -3px;
   height: 20px;
   width: 20px;
   background: #ed632e;
-  background-image: url(../../graphismes/icones/icon/sun-icon-01.png);
+  border: 2px white solid;
+  background-image: url(../../graphismes/icones/icon/sun-icon-01D.png);
   background-position: center;
   background-size: cover;
   border-radius: 50%;
@@ -179,7 +187,7 @@ button:hover, button:focus {
   left: 21px;
   border-radius: 50%;
   background: #040120;
-  background-image: url(../../graphismes/icones/icon/moon-icon-01.png);
+  background-image: url(../../graphismes/icones/icon/moon-icon-01D.png);
   background-position: center;
   background-size: cover;
 }
