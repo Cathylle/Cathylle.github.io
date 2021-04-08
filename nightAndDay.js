@@ -24,30 +24,37 @@ if(getCookie('switch')=="day"){
     eraseCookie('switch')
     setCookie("switch", "night", 2) 
     $("#cssSheet").attr("href", "/public/css/style_night.css");
+    $('.switch input').prop('checked', true);
 }   
 
 else if(getCookie('switch')=="night"){
     eraseCookie('switch')
     setCookie("switch", "day", 2) 
     $("#cssSheet").attr("href", "/public/css/style_day.css");
+    $('.switch input').prop('checked', true);
 } 
 else{
     setCookie("switch", "day", 2) 
     $("#cssSheet").attr("href", "/public/css/style_day.css");
+    $('.switch input').prop('checked', true);
 }
-
-    console.log(getCookie('switch'))
 
 });
 
 if(getCookie('switch')=="day"){
 
     $("#cssSheet").attr("href", "/public/css/style_day.css");
+    $('.switch input').prop('checked', true);
 }   
 
 else if(getCookie('switch')=="night"){
 
     $("#cssSheet").attr("href", "/public/css/style_night.css");
+    $('.switch input').prop('checked', true);
+}
+
+if (!getCookie('switch')){
+    $('.switch input').prop('checked', false);
 }
 
 //     $('.switch').mouseup(function() {
