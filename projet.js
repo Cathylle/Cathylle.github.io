@@ -260,7 +260,7 @@ $(".apropos__prezgenerale__services__commu").click(afficherServiceCommu);
 		setTimeout(function() {
 		$(".apropos__services__bloctext__text").html("La préparation et la mise en page de document, principalement en vue de l’impression, font partie de mes attributions.  Le monde du print offre une large palette de supports : papier, textile, métal, plastique… Ainsi, je compose pour des flyers, des cartes de visite ou de vœux, des affiches, des catalogues, des manuels, des livres, des bannières…");
 		$(".apropos__services__select__commu").addClass("actif");
-		$(".apropos__services__programme__iconService").attr("src","graphismes/icones/service/commu-service-01.png");
+		$(".apropos__services__programme__iconService").attr("src","graphismes/icones/service/Commu-service-01.png");
 		$(".apropos__services__programme__iconService").attr("alt","Pré-presse");
 		$(".apropos__services__programme >h2").html("Pré-presse")
 		$(".apropos__services__programme__icon").append(iconPSD+iconAI+iconId+iconWord); 
