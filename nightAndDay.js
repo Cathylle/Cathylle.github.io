@@ -44,13 +44,13 @@ else{
 if(getCookie('switch')=="day"){
 
     $("#cssSheet").attr("href", "/public/css/style_day.css");
-    $('.switch input').prop('checked', true);
+    $('.switch input').prop('checked', false);
 }   
 
 else if(getCookie('switch')=="night"){
 
     $("#cssSheet").attr("href", "/public/css/style_night.css");
-    $('.switch input').prop('checked', true);
+    $('.switch input').prop('checked', false);
 }
 
 if (!getCookie('switch')){
