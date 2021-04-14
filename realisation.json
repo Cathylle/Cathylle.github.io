@@ -1,4 +1,14 @@
-[
+[{  "titre":"Communication 2021 [WIP]",
+    "categ":"prepresse ideation",
+    
+    "miniature":"graphismes/img/COMMU/mini-CarteDeVisite2021.jpg",
+    "texte":"En 2021, je fais le bilan sur mes outils de communication et leur impact sur mon public. Suite à mes observations et mes conclusions, je décide de réaliser un nouveau site, plus ergonomique, professionnel et  agréable. Je revois aussi mon CV entièrement et réalise ensuite une nouvelle carte de visite, un folder résumant mon activité (WIP). Je prévois aussi de créer une publication facebook avec un visuel cohérent et impactant afin d'informer mon public des changements effectués.",
+    "photos" : [
+        {"src":"graphismes/img/COMMU/CarteDeVisite2021.jpg",
+            "alt":"Carte de visite aux couleurs du site, avec un code QR pour plus d'accessibilité",
+            "titre":"Carte de visite 2021"
+            } ]
+},
     
     {  "titre":"Portfolio 2021",
         "categ":"web ideation",
