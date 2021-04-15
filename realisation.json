@@ -11,7 +11,13 @@
             {"src":"graphismes/img/COMMU/folder2021.jpg",
                 "alt":"folder décrivant mes activités et expliquant comment accéder à mes tarifs",
                 "titre":"Folder 2021"
-                } ]
+                },
+                {"src":"graphismes/img/COMMU/CV2021.jpg",
+                    "alt":"une image du CV que j'envoie afin de candidater pour un emploi",
+                    "titre":"CV2021"
+                    }
+            
+                ]
 },
     
     {  "titre":"Portfolio 2021",
