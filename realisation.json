@@ -7,7 +7,11 @@
         {"src":"graphismes/img/COMMU/CarteDeVisite2021.jpg",
             "alt":"Carte de visite aux couleurs du site, avec un code QR pour plus d'accessibilité",
             "titre":"Carte de visite 2021"
-            } ]
+            },
+            {"src":"graphismes/img/COMMU/folder2021.jpg",
+                "alt":"folder décrivant mes activités et expliquant comment accéder à mes tarifs",
+                "titre":"Folder 2021"
+                } ]
 },
     
     {  "titre":"Portfolio 2021",
