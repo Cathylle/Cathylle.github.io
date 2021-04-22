@@ -1,4 +1,23 @@
-[{  "titre":"Communication 2021 [WIP]",
+[{  "titre":"Coppinette",
+    "categ":"prepresse",
+    "miniature":"graphismes/img/COMMU/mini-coppinette.jpg",
+    "texte":"Réalisation d'un logo pour le projet de marque de bière 'Coppinette'. La demande du client consistait à mettre en scène, sous forme de personnages, les 4 ingrédients composant la bière. L'image finale sera utilisée pour de l'impression des stickers et pour de la gravure sur verre.",
+    "photos" : [
+        {"src":"graphismes/img/COMMU/Coppinette1.jpg",
+            "alt":"Montage photo du logo sur le verre pour donner un aperçu du résultat au client",
+            "titre":"Coppinette aperçu"
+            },
+            {"src":"graphismes/img/COMMU/Coppinette2.jpg",
+                "alt":"Différentes propositions de logo pour le projet Coppinette",
+                "titre":"Coppinette en couleur"
+                },
+                {"src":"graphismes/img/COMMU/Coppinette3.jpg",
+                    "alt":"Différentes propositions du logo en noir et blanc",
+                    "titre":"Coppinette en noir et blanc"
+                    }
+                ]
+},
+{  "titre":"Communication 2021",
     "categ":"prepresse ideation",
     
     "miniature":"graphismes/img/COMMU/mini-CarteDeVisite2021.jpg",
